@@ -2,3 +2,32 @@
 body{
     font-family: 'Work Sans', sans-serif;
 }
+@media screen and (max-width:576px) {
+    .nav-container ,
+    .nav-bar,
+    .banner-container,
+    .game-container{
+        flex-direction: column;
+    }
+    .nav-bar > li{
+        padding: 15px;
+    }
+    .nav-bar,
+    .background-text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .game-container{
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-image img{
+        max-width: 350px;
+        margin:10px;
+    }
+
+    
+}
