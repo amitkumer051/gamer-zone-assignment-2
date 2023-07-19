@@ -194,6 +194,23 @@ nav {
     gap: 15px;
 }
 
+.watch-now-button{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: -220px;
+}
+.watch-now{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    color:#FF42A5 ;
+}
+/* .watch-now-button .watch-now:hover{
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+} */
+
 .game-container img {
     width: 235px;
     height: 285px;
@@ -249,11 +266,11 @@ nav {
 
 .icon-container {
     max-width: 1900px;
-    text-align: center;
-    padding: 80px;
+    /* text-align: center; */
+    padding: 90px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    width: fit-content;
+    flex-wrap:wrap;
     margin: auto;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
@@ -328,10 +345,11 @@ nav {
 }
 
 .footer-nav {
-    display: flex;
-    justify-content: center;
+    display: grid;
+    max-width: 60%;
+    margin: auto;
+    grid-template-columns: repeat(6, 1fr);
     list-style-type: none;
-    gap: 40px;
     margin-bottom: 50px;
 }
 .footer-nav a {
@@ -339,27 +357,28 @@ nav {
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
-    line-height: normal;
 }
 .icon {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 40%;
+    margin: auto;
     margin-bottom: 50px;
 }
 .footer-des {
-    display: flex;
+    width: 60%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
     color: rgba(255, 255, 255, 0.60);
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 500;
     justify-content: center;
+    padding-bottom: 20px;
 }
 .footer-des{
     color: rgba(255, 255, 255, 0.60);
-    font-size: 16px;
-    font-weight: 500;
-    gap: 40px;
-    padding-bottom: 20px;
+  
 }
 .all-reserved{
     color: rgba(255, 255, 255, 0.60);

@@ -7,7 +7,8 @@ body{
     .nav-bar,
     .banner-container,
     .game-container,
-    .instant-container{
+    .instant-container
+    {
         flex-direction: column;
     }
     .nav-bar > li{
@@ -38,5 +39,35 @@ body{
         margin: 0 auto;
         text-align: center;
         padding: 10px ;
+    }
+
+    .footer-container{
+        height: 800px;
+    }
+    .icon-container
+      {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 20px;
+        margin: 10px auto;
+    }
+    .footer-nav{
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 90%;
+    }
+    .footer-nav li{
+        padding: 20px;
+    }
+    .icon{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .icon i{
+        padding: 20px;
+    }
+
+    .footer-des p{
+        padding: 20px;
+    }
+    .footer-des{
+        grid-template-columns: repeat(2, 1fr);
     }
 }
