@@ -1,19 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800&display=swap');
-body{
+
+body {
     font-family: 'Work Sans', sans-serif;
 }
+
 @media screen and (max-width:576px) {
-    .nav-container ,
+
+    .nav-container,
     .nav-bar,
     .banner-container,
     .game-container,
-    .instant-container
-    {
+    .instant-container {
         flex-direction: column;
     }
-    .nav-bar > li{
+
+    .logo-container {
+        max-width: 100%;
+        margin-right: 120px;
+    }
+
+    .nav-bar>li {
         padding: 15px;
     }
+
     .nav-bar,
     .background-text {
         width: 100%;
@@ -21,53 +30,149 @@ body{
         justify-content: center;
         align-items: center;
     }
-    .game-container{
+
+    .game-container {
         max-width: 100%;
         justify-content: center;
         align-items: center;
     }
-    .banner-image img{
+
+    .banner-image img {
         max-width: 320px;
         margin: 10px;
     }
-    .banner-container{
+
+    .banner-container {
         padding: 30px;
         text-align: center;
     }
+
     .instant-container,
-    .instant-content{
+    .instant-content {
         margin: 0 auto;
         text-align: center;
-        padding: 10px ;
+        padding: 10px;
     }
 
-    .footer-container{
+    .footer-container {
         height: 800px;
     }
-    .icon-container
-      {
+
+    .icon-container {
         grid-template-columns: repeat(3, 1fr);
         padding: 20px;
         margin: 10px auto;
     }
-    .footer-nav{
+
+    .footer-nav {
         grid-template-columns: repeat(3, 1fr);
         max-width: 90%;
     }
-    .footer-nav li{
-        padding: 20px;
-    }
-    .icon{
-        grid-template-columns: repeat(3, 1fr);
-    }
-    .icon i{
+
+    .footer-nav li {
         padding: 20px;
     }
 
-    .footer-des p{
+    .icon {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .icon i {
         padding: 20px;
     }
-    .footer-des{
+
+    .footer-des p {
+        padding: 20px;
+    }
+
+    .footer-des {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav-container,
+    .nav-bar,
+    .banner-container,
+    .game-container,
+    .instant-container {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        max-width: 100%;
+        margin: auto;
+    }
+
+    .nav-bar>li {
+        padding: 15px;
+    }
+
+    .nav-bar,
+    .background-text {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .game-container {
+        max-width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-image img {
+        max-width: 320px;
+        margin: 10px;
+    }
+
+    .banner-container {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .instant-container,
+    .instant-content {
+        margin: 0 auto;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .footer-container {
+        height: 800px;
+    }
+
+    .icon-container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 20px;
+        margin: 10px auto;
+    }
+
+    .footer-nav {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 90%;
+    }
+
+    .footer-nav li {
+        padding: 20px;
+    }
+
+    .icon {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .icon i {
+        padding: 20px;
+    }
+
+    .footer-des p {
+        padding: 20px;
+    }
+
+    .footer-des {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
