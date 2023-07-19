@@ -247,13 +247,13 @@ nav {
 }
 
 
-
 .icon-container {
-    max-width: 100%;
+    max-width: 1900px;
     text-align: center;
     padding: 80px;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    width: fit-content;
     margin: auto;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
@@ -289,10 +289,11 @@ nav {
 
 
 .footer-container {
-    background-color: #efebfa;
+    background: #0B0223;
     max-width: 1900px;
     text-align: center;
     margin: auto;
+    height: 500px;
 }
 
 .footer-logo img {
@@ -330,16 +331,38 @@ nav {
     display: flex;
     justify-content: center;
     list-style-type: none;
+    gap: 40px;
+    margin-bottom: 50px;
 }
-
 .footer-nav a {
     text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: normal;
 }
-
+.icon {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 50px;
+}
 .footer-des {
     display: flex;
     color: rgba(255, 255, 255, 0.60);
     font-size: 12px;
     font-weight: 500;
     justify-content: center;
+}
+.footer-des{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    gap: 40px;
+    padding-bottom: 20px;
+}
+.all-reserved{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1rem;
+    font-weight: 500;
 }
