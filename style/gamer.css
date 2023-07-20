@@ -155,6 +155,7 @@ nav {
 .online-container {
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .main-content {
@@ -186,7 +187,7 @@ nav {
     gap: 15px;
 }
 
-.watch-now-button {
+/* .watch-now-button {
     margin: 0;
     padding: 0;
     text-align: center;
@@ -198,7 +199,7 @@ nav {
     font-size: 20px;
     font-weight: 600;
     color: #FF42A5;
-}
+} */
 
 /* .watch-now-button .watch-now:hover{
     border-radius: 16px;
@@ -260,22 +261,29 @@ nav {
 
 .icon-container {
     max-width: 1900px;
-    padding: 90px;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    display: flex;
+    margin: 50px auto;
     flex-wrap: wrap;
-    margin: auto;
+    gap: 15px;
+    padding: 60px 100px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 
 }
 
 .image-content {
     display: flex;
+    justify-content: center;
     align-items: center;
     cursor: pointer;
     border-radius: 50px;
     margin: 10px;
     padding: 5px;
+}
+
+.icon-content {
+    font-size: 10px;
+    font-weight: 600;
 }
 
 .image-content:hover {
@@ -290,12 +298,6 @@ nav {
     height: 40px;
     margin-right: 10px;
 }
-
-.icon-content {
-    font-size: 10px;
-    font-weight: 600;
-}
-
 
 
 .footer-container {

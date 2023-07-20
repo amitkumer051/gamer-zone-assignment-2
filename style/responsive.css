@@ -75,6 +75,7 @@ body {
     }
 
     .icon-container {
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
         padding: 20px;
         margin: 10px auto;
@@ -171,6 +172,7 @@ body {
 
     .icon-container {
         max-width: 100%;
+        display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin:0 auto;
     }
