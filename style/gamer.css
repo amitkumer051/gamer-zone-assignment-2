@@ -187,24 +187,25 @@ nav {
     gap: 15px;
 }
 
-/* .watch-now-button {
+.watch-now-button {
     margin: 0;
     padding: 0;
     text-align: center;
     margin-top: -220px;
+    cursor: pointer;
 }
 
 .watch-now {
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-    color: #FF42A5;
-} */
+    color: #ffff;
+}
 
-/* .watch-now-button .watch-now:hover{
+.watch-now-button .watch-now:hover{
     border-radius: 16px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.60) 0%, rgba(0, 0, 0, 0.60) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
-} */
+    background: black;
+}
 
 .game-container img {
     width: 235px;

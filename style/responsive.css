@@ -71,7 +71,7 @@ body {
         font-size: 2rem;
     }
     .footer-container {
-        height: 800px;
+        height: 900px;
     }
 
     .icon-container {
@@ -92,10 +92,11 @@ body {
 
     .icon {
         grid-template-columns: repeat(3, 1fr);
+        max-width: 100%;
     }
 
     .icon i {
-        padding: 20px;
+        padding: 40px;
     }
 
     .footer-des p {
@@ -167,7 +168,7 @@ body {
     }
 
     .footer-container {
-        height: 1000px;
+        height: 1100px;
     }
 
     .icon-container {
@@ -191,7 +192,7 @@ body {
     }
 
     .icon i {
-        padding: 20px;
+        padding: 40px;
     }
 
     .footer-des p {
