@@ -37,6 +37,9 @@ body {
         justify-content: center;
         align-items: center;
     }
+    .watch-now-button{
+        margin-bottom: 180px;
+    }
 
     .game-container {
         max-width: 100%;
