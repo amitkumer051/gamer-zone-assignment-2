@@ -97,7 +97,6 @@ body {
         grid-template-columns: repeat(3, 1fr);
         max-width: 100%;
     }
-
     .icon i {
         padding: 40px;
     }
