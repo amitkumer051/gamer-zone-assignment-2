@@ -18,9 +18,11 @@ body {
         width: 100%;
         font-size: 2.5rem;
     }
+
     .heading-content {
         font-size: 5.5rem;
     }
+
     .logo-container {
         max-width: 100%;
         margin-right: 120px;
@@ -37,7 +39,8 @@ body {
         justify-content: center;
         align-items: center;
     }
-    .watch-now-button{
+
+    .watch-now-button {
         margin-bottom: 180px;
     }
 
@@ -51,6 +54,7 @@ body {
         max-width: 320px;
         margin: 10px;
     }
+
     .banner-container {
         margin: 0 auto;
         padding: 5px;
@@ -63,16 +67,20 @@ body {
         text-align: center;
         padding: 10px;
     }
+
     .image-content {
         margin: 0;
         padding: 6px;
     }
-    .main-content, .colorfull-content{
+
+    .main-content,
+    .colorfull-content {
         width: 100%;
         margin: 0 auto;
         padding: 0;
         font-size: 2rem;
     }
+
     .footer-container {
         height: 900px;
     }
@@ -97,6 +105,7 @@ body {
         grid-template-columns: repeat(3, 1fr);
         max-width: 100%;
     }
+
     .icon i {
         padding: 40px;
     }
@@ -113,6 +122,7 @@ body {
 
 
 @media screen and (min-width:576px) and (max-width:992px) {
+
     .nav-container,
     .nav-bar,
     .banner-container,
@@ -148,19 +158,23 @@ body {
         padding: 30px;
         text-align: center;
     }
-    .team-image{
+
+    .team-image {
         margin: 0 auto;
         padding: 0;
     }
+
     .game-container {
         max-width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin:  auto;
+        margin: auto;
     }
-    .badge-image{
-        margin-left:-250px ;
+
+    .badge-image {
+        margin-left: -250px;
     }
+
     .instant-container,
     .instant-content {
         max-width: 100%;
@@ -177,7 +191,7 @@ body {
         max-width: 100%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin:0 auto;
+        margin: 0 auto;
     }
 
     .footer-nav {
